@@ -10,8 +10,7 @@ This project performs analytics on an Indian Agriculture dataset and displays th
 - [Usage](#usage)
 - [Screenshots](#screenshots)
 - [Project Structure](#project-structure)
-- [Evaluation Criteria](#evaluation-criteria)
-- [Submission](#submission)
+
 
 ## Introduction
 
@@ -21,7 +20,7 @@ This project analyzes the Indian Agriculture dataset provided by the National Da
 
 ## Technologies Used
 
-- TypeScript
+- Javascript
 - React via Create React App (CRA)
 - Yarn
 - Mantine v7
@@ -30,5 +29,28 @@ This project analyzes the Indian Agriculture dataset provided by the National Da
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone (https://github.com/riteeshinfo/Manufac_Analytics_Assignment)
+   cd agricluture-analysis
+2. Install dependencies using Yarn
+   yarn install
+3.Start the development server
+   yarn start
+## Project Structure
+The project structure is organized as follows:
+.
+├── public
+│   └── index.html
+├── src
+│   ├── components
+│   │   └── TableComponent.js
+│   ├── data
+│   │   └── Dataprocesser.js
+│   ├── App.js
+│   ├── index.js
+│   ├── styles.css
+│   └── ...
+├── .gitignore
+├── package.json
+├── README.md
+├── tsconfig.json
+└── yarn.lock
