@@ -1,0 +1,52 @@
+/* Style for the entire body of the document */
+body {
+  font-family: Arial, sans-serif; /* Sets the font family */
+  background-color: #f4f4f4; /* Sets the background color */
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+}
+
+/* Style for the heading */
+h1 {
+  text-align: center; /* Centers the heading text */
+  margin-top: 20px; /* Adds space above the heading */
+  color: #333; /* Sets the text color */
+}
+
+/* Container for the table */
+.table-container {
+  margin: 20px auto; /* Adds space around the container and centers it */
+  max-width: 1200px; /* Sets a maximum width */
+  overflow-x: auto; /* Allows horizontal scrolling if needed */
+  background-color: #fff; /* Sets the background color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a shadow effect */
+}
+
+/* Style for the table */
+table {
+  width: 100%; /* Sets the table to take full width of the container */
+  border-collapse: collapse; /* Removes the space between table cells */
+  margin: 20px 0; /* Adds space above and below the table */
+}
+
+/* Style for table headers and cells */
+th, td {
+  padding: 12px 15px; /* Adds padding inside each cell */
+  border: 1px solid #ddd; /* Adds a border to each cell */
+  text-align: center; /* Centers the text in each cell */
+}
+
+/* Style for table headers */
+th {
+  background-color: #f2f2f2; /* Sets the background color for headers */
+}
+
+/* Style for even rows */
+tr:nth-child(even) {
+  background-color: #f9f9f9; /* Sets the background color for even rows */
+}
+
+/* Style for row hover effect */
+tr:hover {
+  background-color: #f1f1f1; /* Changes background color when hovering over a row */
+}
